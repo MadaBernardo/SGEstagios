@@ -144,6 +144,8 @@ I developed \*\*7 specialized procedures\*\* to handle operations and reporting:
 
 git clone https://github.com/MadaBernardo/SGEstagios.git
 
+
+
 -- Execute: database/sistema-gestão-ofertas.sql.
 
 
