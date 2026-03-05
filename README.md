@@ -68,24 +68,24 @@ I developed **7 specialized procedures** to handle operations and reporting:
 ## ⚙️ Setup & Usage
 
 ### 1. Installation
--- Clone the repository and run the main script in your SSMS:
+* Clone the repository and run the main script in your SSMS:
 ```bash
 git clone https://github.com/MadaBernardo/SGEstagios.git
 ```
 
--- Execute: database/sistema-gestão-ofertas.sql.
+* Execute: database/sistema-gestão-ofertas.sql.
 
 ### 2. Testing the Logic
 You can test the automated features by running these commands:
 
 SQL
--- Create a new offer (Automated validation)
+* Create a new offer (Automated validation)
 EXEC SP_CriarOfertaEstagio 1, 'Multimedia', 'Final Defense Test', 2, '2026-12-31';
 
--- Update an application (Triggers audit and vacancy count)
+* Update an application (Triggers audit and vacancy count)
 EXEC SP_AtualizarEstadoCandidatura @Id_Candidatura = 12, @NovoEstado = 'RECUSADO', @OBS = 'TESTEADMIN';
 
--- View Real-time Stats
+* View Real-time Stats
 EXEC SP_EstatisticasGerais;
 
 ---
@@ -94,7 +94,7 @@ EXEC SP_EstatisticasGerais;
 
 * **Developed by:** Madalena Bernardo.
 * **License:** Licensed under the [MIT License](LICENSE).
-* **Project Type: Semester Project for Database Systems II.
+* **Project Type:** Semester Project for Database Systems II.
 
 ---
 
@@ -181,24 +181,24 @@ Desenvolvi **7 procedimentos especializados** para lidar com operações e relat
 ## ⚙️ Configuração e Uso
 
 ### 1. Instalação
--- Clone o repositório e execute o script principal no seu SSMS:
+* Clone o repositório e execute o script principal no seu SSMS:
 ```bash
 git clone https://github.com/MadaBernardo/SGEstagios.git
 ```
--- Execute: database/sistema-gestão-ofertas.sql.
+* Execute: database/sistema-gestão-ofertas.sql.
 
 ### 2. Testando a Lógica
 Você pode testar os recursos automatizados executando estes comandos:
 
 SQL
 
--- Criar uma nova oferta (Validação automatizada)
+* Criar uma nova oferta (Validação automatizada)
 EXEC SP_CriarOfertaEstagio 1, 'Multimedia', 'Final Defense Test', 2, '2026-12-31';
 
-- Atualizar uma inscrição (aciona auditoria e contagem de vagas)
+* Atualizar uma inscrição (aciona auditoria e contagem de vagas)
 EXEC SP_AtualizarEstadoCandidatura @Id_Candidatura = 12, @NovoEstado = 'RECUSADO', @OBS = 'TESTEADMIN';
 
-- Ver estatísticas em tempo real
+* Ver estatísticas em tempo real
 EXEC SP_EstatísticasGerais;
 
 ---
@@ -206,6 +206,6 @@ EXEC SP_EstatísticasGerais;
 ## 📄 Licença e Créditos
 
 * **Desenvolvido por:** Madalena Bernardo.
-* **Licença:** Licenciado sob a [[MIT License](LICENSE).
-* **Tipo de Projeto: Projeto Semestral de Sistemas de Banco de Dados II.
+* **Licença:** Licenciado sob a [MIT License](LICENSE).
+* **Tipo de Projeto:** Projeto Semestral de Sistemas de Banco de Dados II.
 
